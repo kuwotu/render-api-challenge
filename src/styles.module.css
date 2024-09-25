@@ -1,0 +1,31 @@
+.container {
+  padding: 50px;
+}
+
+.expenses-title {
+  padding: 30px;
+}
+
+.seperator {
+  border-bottom: 2px solid black;
+}
+
+.expenses-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.expenses-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-left: 0;
+  /* align-items: center; */
+  padding-bottom: 10px;
+}
+
+.item {
+  width: 200px;
+}
